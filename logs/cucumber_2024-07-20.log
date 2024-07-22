@@ -1,0 +1,17 @@
+[INFO ] 2024-07-20 23:58:01,568 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
+[INFO ] 2024-07-20 23:58:01,569 DriverFactory.initiate_browser() -  >>>>>> Browser value is : Chrome
+[INFO ] 2024-07-20 23:58:02,879 DriverFactory.initiate_browser() - Chromebrowser opened
+[INFO ] 2024-07-20 23:58:02,951 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
+[INFO ] 2024-07-20 23:58:07,162 DriverFactory.initiate_browser() - Application URL is : https://rahulshettyacademy.com/client
+[INFO ] 2024-07-20 23:58:07,254 hooks.launchBrowser() - PageLoad Time is : 5691 Milli Seconds
+[INFO ] 2024-07-20 23:58:07,268 LoginStepDefination.user_launched_browser_and_entered_url() -  >>>>>> User launched browser successfully. 
+[INFO ] 2024-07-20 23:58:07,274 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
+[WARN ] 2024-07-20 23:58:07,753 ReadExcelData.getExcellRowData() - Cannot invoke "org.apache.poi.ss.usermodel.Cell.getStringCellValue()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null
+[INFO ] 2024-07-20 23:58:08,074 CommonObjects.enterTextByID() - Entered username is :chary1@yopmail.com
+[INFO ] 2024-07-20 23:58:11,088 LoginStepDefination.user_entered_from_test_case() -  >>>>>> User entered :  chary1@yopmail.com
+[INFO ] 2024-07-20 23:58:11,096 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
+[WARN ] 2024-07-20 23:58:11,189 ReadExcelData.getExcellRowData() - Cannot invoke "org.apache.poi.ss.usermodel.Cell.getStringCellValue()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null
+[INFO ] 2024-07-20 23:58:11,587 CommonObjects.enterTextByID() - Entered username is :Chary@123
+[INFO ] 2024-07-20 23:58:14,597 LoginStepDefination.user_entered_from_test_case() -  >>>>>> User entered :  Chary@123
+[INFO ] 2024-07-20 23:58:14,739 LoginStepDefination.user_clicked_on() -  >>>>>> User clicked on :  login
+[INFO ] 2024-07-20 23:58:14,911 DriverFactory.close_app() -  Browser Closed 

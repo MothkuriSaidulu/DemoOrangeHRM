@@ -1,0 +1,56 @@
+[INFO ] 2024-07-21 21:33:48,870 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
+[INFO ] 2024-07-21 21:33:48,872 DriverFactory.initiate_browser() -  >>>>>> Browser value is : Chrome
+[INFO ] 2024-07-21 21:33:50,275 DriverFactory.initiate_browser() - Chromebrowser opened
+[INFO ] 2024-07-21 21:33:50,337 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
+[INFO ] 2024-07-21 21:33:55,609 DriverFactory.initiate_browser() - Application URL is : https://rahulshettyacademy.com/client
+[INFO ] 2024-07-21 21:33:59,724 hooks.launchBrowser() - PageLoad Time is : 10858 Milli Seconds
+[INFO ] 2024-07-21 21:33:59,744 LoginStepDefination.user_launched_browser_and_entered_url() -  >>>>>> User launched browser successfully. 
+[INFO ] 2024-07-21 21:33:59,744 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
+[INFO ] 2024-07-21 21:34:01,177 CommonObjects.enterTextByID() - Entered username is :chary1@yopmail.com
+[INFO ] 2024-07-21 21:34:04,183 LoginStepDefination.user_entered_from_test_case() -  >>>>>> User entered :  chary1@yopmail.com
+[INFO ] 2024-07-21 21:34:04,189 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
+[INFO ] 2024-07-21 21:34:04,684 CommonObjects.enterTextByID() - Entered username is :Chary@123
+[INFO ] 2024-07-21 21:34:07,685 LoginStepDefination.user_entered_from_test_case() -  >>>>>> User entered :  Chary@123
+[INFO ] 2024-07-21 21:34:10,817 LoginStepDefination.user_clicked_on() -  >>>>>> User clicked on :  login
+[INFO ] 2024-07-21 21:34:14,430 ForgotPassword.user_clicked_on_button() -  >>>>>> User Succesfully clicked on :  Sign Out
+[INFO ] 2024-07-21 21:34:17,783 DriverFactory.close_app() -  Browser Closed 
+[INFO ] 2024-07-21 21:34:17,798 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
+[INFO ] 2024-07-21 21:34:17,798 DriverFactory.initiate_browser() -  >>>>>> Browser value is : Chrome
+[INFO ] 2024-07-21 21:34:18,454 DriverFactory.initiate_browser() - Chromebrowser opened
+[INFO ] 2024-07-21 21:34:18,516 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
+[INFO ] 2024-07-21 21:34:22,426 DriverFactory.initiate_browser() - Application URL is : https://rahulshettyacademy.com/client
+[INFO ] 2024-07-21 21:34:22,456 hooks.launchBrowser() - PageLoad Time is : 4658 Milli Seconds
+[INFO ] 2024-07-21 21:34:22,459 LoginStepDefination.user_launched_browser_and_entered_url() -  >>>>>> User launched browser successfully. 
+[INFO ] 2024-07-21 21:34:22,459 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
+[INFO ] 2024-07-21 21:34:22,891 CommonObjects.enterTextByID() - Entered username is :Chary2@yopmail.com
+[INFO ] 2024-07-21 21:34:25,900 LoginStepDefination.user_entered_from_test_case() -  >>>>>> User entered :  Chary2@yopmail.com
+[INFO ] 2024-07-21 21:34:25,906 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
+[INFO ] 2024-07-21 21:34:26,215 CommonObjects.enterTextByID() - Entered username is :Chary@3636
+[INFO ] 2024-07-21 21:34:29,217 LoginStepDefination.user_entered_from_test_case() -  >>>>>> User entered :  Chary@3636
+[INFO ] 2024-07-21 21:34:32,338 LoginStepDefination.user_clicked_on() -  >>>>>> User clicked on :  login
+[INFO ] 2024-07-21 21:34:36,010 ForgotPassword.user_clicked_on_button() -  >>>>>> User Succesfully clicked on :  Sign Out
+[INFO ] 2024-07-21 21:34:39,556 DriverFactory.close_app() -  Browser Closed 
+[INFO ] 2024-07-21 21:34:39,558 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
+[INFO ] 2024-07-21 21:34:39,558 DriverFactory.initiate_browser() -  >>>>>> Browser value is : Chrome
+[INFO ] 2024-07-21 21:34:40,249 DriverFactory.initiate_browser() - Chromebrowser opened
+[INFO ] 2024-07-21 21:34:40,302 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
+[INFO ] 2024-07-21 21:34:42,506 DriverFactory.initiate_browser() - Application URL is : https://rahulshettyacademy.com/client
+[INFO ] 2024-07-21 21:34:43,940 hooks.launchBrowser() - PageLoad Time is : 4382 Milli Seconds
+[INFO ] 2024-07-21 21:34:43,948 LoginStepDefination.user_launched_browser_and_entered_url() -  >>>>>> User launched browser successfully. 
+[INFO ] 2024-07-21 21:34:43,951 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
+[INFO ] 2024-07-21 21:34:44,304 CommonObjects.enterTextByID() - Entered username is :sahoo@yopmail.com
+[INFO ] 2024-07-21 21:34:47,321 LoginStepDefination.user_entered_from_test_case() -  >>>>>> User entered :  sahoo@yopmail.com
+[INFO ] 2024-07-21 21:34:47,323 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
+[INFO ] 2024-07-21 21:34:47,663 CommonObjects.enterTextByID() - Entered username is :Sahoo@123
+[INFO ] 2024-07-21 21:34:50,670 LoginStepDefination.user_entered_from_test_case() -  >>>>>> User entered :  Sahoo@123
+[INFO ] 2024-07-21 21:34:53,844 LoginStepDefination.user_clicked_on() -  >>>>>> User clicked on :  login
+[WARN ] 2024-07-21 21:35:08,885 LoginStepDefination.verify_popup_mesaage() - no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),'Login Successfully')]"}
+  (Session info: chrome=126.0.6478.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-E2QB3MJH', ip: '172.20.10.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\SAIDAC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65366}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 74832b546c7a31e8ea074a3dafb7c7e6
+*** Element info: {Using=xpath, value=//*[contains(text(),'Login Successfully')]}
+[INFO ] 2024-07-21 21:35:12,820 DriverFactory.close_app() -  Browser Closed 
