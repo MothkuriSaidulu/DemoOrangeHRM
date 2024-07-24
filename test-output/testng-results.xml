@@ -1,36 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-21T21:15:24 IST" name="Default suite" finished-at="2024-07-21T21:16:07 IST" duration-ms="42639">
+  <suite started-at="2024-07-23T23:25:19 IST" name="Suite" finished-at="2024-07-23T23:25:34 IST" duration-ms="14944">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.orangehrm.runner.TestNGLoginRunner@1aafa419]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-07-21T21:15:24 IST" name="Default test" finished-at="2024-07-21T21:16:07 IST" duration-ms="42639">
+    <test started-at="2024-07-23T23:25:19 IST" name="Test" finished-at="2024-07-23T23:25:34 IST" duration-ms="14944">
       <class name="com.orangehrm.runner.TestNGLoginRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.orangehrm.runner.TestNGLoginRunner@1aafa419]" started-at="2024-07-21T21:15:24 IST" name="setUpClass" finished-at="2024-07-21T21:15:25 IST" duration-ms="541" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.orangehrm.runner.TestNGLoginRunner@1aafa419]" started-at="2024-07-23T23:25:19 IST" name="setUpClass" finished-at="2024-07-23T23:25:19 IST" duration-ms="559" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.orangehrm.runner.TestNGLoginRunner@1aafa419]" started-at="2024-07-21T21:15:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-21T21:15:47 IST" duration-ms="21923" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[": Verify login functionality with more users"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Login Module.]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.orangehrm.runner.TestNGLoginRunner@1aafa419]" started-at="2024-07-21T21:15:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-21T21:16:01 IST" duration-ms="13779" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.orangehrm.runner.TestNGLoginRunner@1aafa419]" started-at="2024-07-23T23:25:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-23T23:25:28 IST" duration-ms="9067" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -45,20 +29,48 @@
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[ >>>>>> User failed to click on : login]]>
+              <![CDATA[ >>>>>> User failed to enter : Chary@123]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError:  >>>>>> User failed to click on : login
+              <![CDATA[java.lang.AssertionError:  >>>>>> User failed to enter : Chary@123
 at org.junit.Assert.fail(Assert.java:89)
-at com.orangehrm.stepDefination.LoginStepDefination.user_clicked_on(LoginStepDefination.java:54)
-at ✽.user clicked on "login".(file:///D:/AutomationWorkspace/AutomationProjects/DemoOrangeHRM/src/test/resources/Features/LoginTestWithMore.feature:10)
+at com.orangehrm.stepDefination.LoginStepDefination.user_entered_from_test_case(LoginStepDefination.java:39)
+at ✽.user entered "userPassword" from Test Case "TC_001".(file:///D:/AutomationWorkspace/AutomationProjects/DemoOrangeHRM/src/test/resources/Features/LoginTestWithMore.feature:9)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.orangehrm.runner.TestNGLoginRunner@1aafa419]" started-at="2024-07-21T21:16:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-21T21:16:04 IST" duration-ms="3180" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.orangehrm.runner.TestNGLoginRunner@1aafa419]" started-at="2024-07-23T23:25:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-23T23:25:31 IST" duration-ms="2080" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[": Verify login functionality with more users"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login Module.]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[ >>>>>> User failed to enter : Chary2@yopmail.com]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError:  >>>>>> User failed to enter : Chary2@yopmail.com
+at org.junit.Assert.fail(Assert.java:89)
+at com.orangehrm.stepDefination.LoginStepDefination.user_entered_from_test_case(LoginStepDefination.java:39)
+at ✽.user entered "userEmail" from Test Case "TC_002".(file:///D:/AutomationWorkspace/AutomationProjects/DemoOrangeHRM/src/test/resources/Features/LoginTestWithMore.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.orangehrm.runner.TestNGLoginRunner@1aafa419]" started-at="2024-07-23T23:25:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-23T23:25:33 IST" duration-ms="1976" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -79,8 +91,8 @@ from unknown error: web view not found
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-E2QB3MJH', ip: '172.20.10.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\SAIDAC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64316}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b36b529f0de10d2636681adea4e58401]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\SAIDAC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57480}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a6e6ec8e37869198c82d22c0a082e433]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
@@ -89,8 +101,8 @@ from unknown error: web view not found
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-E2QB3MJH', ip: '172.20.10.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\SAIDAC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64316}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b36b529f0de10d2636681adea4e58401
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\SAIDAC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57480}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a6e6ec8e37869198c82d22c0a082e433
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -103,7 +115,7 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at com.orangehrm.driverfactory.DriverFactory.initiate_browser(DriverFactory.java:74)
+at com.orangehrm.driverfactory.DriverFactory.initiate_browser(DriverFactory.java:69)
 at com.orangehrm.hooks.hooks.launchBrowser(hooks.java:30)
 ]]>
             </full-stacktrace>
@@ -111,11 +123,11 @@ at com.orangehrm.hooks.hooks.launchBrowser(hooks.java:30)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.orangehrm.runner.TestNGLoginRunner@1aafa419]" started-at="2024-07-21T21:16:04 IST" name="tearDownClass" finished-at="2024-07-21T21:16:07 IST" duration-ms="3188" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.orangehrm.runner.TestNGLoginRunner@1aafa419]" started-at="2024-07-23T23:25:33 IST" name="tearDownClass" finished-at="2024-07-23T23:25:34 IST" duration-ms="1237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.orangehrm.runner.TestNGLoginRunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
