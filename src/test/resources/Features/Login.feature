@@ -3,7 +3,7 @@ Feature: Login Module.
   Background: 
     Given user launched browser and entered url.
 
-  @Valid @Regression
+  @Valid @ALL
   Scenario: TC_001_Verify_login_function_with_valid_credentials.
     When user entered "userEmail" from Test Case "TC_001".
     And user entered "userPassword" from Test Case "TC_001".
@@ -12,14 +12,14 @@ Feature: Login Module.
   	And user clicked on button "Sign Out".
 		And verify popup mesaage "Logout Successfully".
 		
-  @InValid @Regression
+  @InValid @ALL
   Scenario: TC_002_Verify_login_Function_with_Invalid_Credentials.
     When user entered "userEmail" from Test Case "TC_004".
     And user entered "userPassword" from Test Case "TC_004".
     And user clicked on "login".
     And verify popup mesaage "Incorrect email or password.".
 
-  @Forgot @Regression
+  @Forgot @ALL
   Scenario Outline:: TC_003_Verrify_forgot_password.
     When user clicked on forgot as "forgot-password-link".
     And user entered "userEmail" from sheet "<Sheetname>" for Test Case "<TestCaseID>".
