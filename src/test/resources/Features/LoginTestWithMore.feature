@@ -3,7 +3,7 @@ Feature: Login Module.
   Background: 
     Given user launched browser and entered url.
 
-  @Regression
+  @ALL
   Scenario Outline:: Verify login functionality with more users
     When user entered "userEmail" from Test Case "<TestCaseID>".
     And user entered "userPassword" from Test Case "<TestCaseID>".
