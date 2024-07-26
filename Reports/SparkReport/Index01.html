@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">DemoOrengeHRM</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jul 24, 2024 10:33:26 pm</span></a>
+<a href="#"><span class="badge badge-primary">Jul 24, 2024 09:23:51 pm</span></a>
 </li>
 </ul>
 </div>
@@ -71,13 +71,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jul 24, 2024 10:33:26 pm</h3>
+<h3>Jul 24, 2024 09:23:51 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jul 24, 2024 10:34:44 pm</h3>
+<h3>Jul 24, 2024 09:25:13 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -148,10 +148,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='88%'><b>22</b> steps passed</small></div>
+<div><small data-tooltip='96%'><b>24</b> steps passed</small></div>
 <div>
 <small data-tooltip='4%'><b>1</b> steps failed,
-<b>2</b> skipped, <b data-tooltip='%'>0</b> others
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -167,7 +167,7 @@
 </div></div>
 <script>
 var timeline = {
-"Login Module.":77.214
+"Login Module.":81.298
 };
 </script>
 <div class="row">
@@ -178,23 +178,7 @@ var timeline = {
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
 <td>@Valid</td>
-<td>0</td>
 <td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0%</td>
-</tr>
-<tr>
-<td>@InValid</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>100%</td>
-</tr>
-<tr>
-<td>@Forgot</td>
-<td>2</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
@@ -207,6 +191,22 @@ var timeline = {
 <td>0</td>
 <td>0</td>
 <td>75%</td>
+</tr>
+<tr>
+<td>@InValid</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@Forgot</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
 </tr>
 </tbody>
 </table></div>
@@ -258,10 +258,10 @@ warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 22,
+passGrandChild: 24,
 failGrandChild: 1,
 warningGrandChild: 0,
-skipGrandChild: 2,
+skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
 };
@@ -283,7 +283,7 @@ eventsCount: 5,
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@Valid</a><a class="dropdown-item" href="#">@InValid</a><a class="dropdown-item" href="#">@Forgot</a><a class="dropdown-item" href="#">@ALL</a>
+<a class="dropdown-item" href="#">@Valid</a><a class="dropdown-item" href="#">@ALL</a><a class="dropdown-item" href="#">@InValid</a><a class="dropdown-item" href="#">@Forgot</a>
 </ul>
 </li>
 </ul>
@@ -296,7 +296,7 @@ eventsCount: 5,
           <div class="test-detail">
             <p class="name">Login Module.</p>
             <p class="text-sm">
-              <span>10:33:26 pm</span> / <span>00:01:17:214</span>
+              <span>9:23:52 pm</span> / <span>00:01:21:298</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -305,9 +305,9 @@ eventsCount: 5,
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">Login Module.</h5>
-<span class='badge badge-success'>07.24.2024 10:33:26 pm</span>
-<span class='badge badge-danger'>07.24.2024 10:34:44 pm</span>
-<span class='badge badge-default'>00:01:17:214</span>
+<span class='badge badge-success'>07.24.2024 9:23:52 pm</span>
+<span class='badge badge-danger'>07.24.2024 9:25:13 pm</span>
+<span class='badge badge-default'>00:01:21:298</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -319,13 +319,10 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>TC_001_Verify_login_function_with_valid_credentials.</div>
-          <div class="status-avatar float-right mr-4">
-            <i class="fa fa-paperclip"></i>
-          </div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>TC_001_Verify_login_function_with_valid_credentials.</div>
       </div>
     </div>
-        <div class="">
+        <div class="collapse">
           <div class="card-body">
               <div class="step pass-bg" title="com.orangehrm.stepDefination.LoginStepDefination.user_launched_browser_and_entered_url()">
                 <span>Given user launched browser and entered url.</span>
@@ -347,37 +344,18 @@ eventsCount: 5,
       <div>
       </div>
               </div>
-              <div class="step fail-bg" title="com.orangehrm.stepDefination.LoginStepDefination.verify_popup_mesaage(java.lang.String)">
+              <div class="step pass-bg" title="com.orangehrm.stepDefination.LoginStepDefination.verify_popup_mesaage(java.lang.String)">
                 <span>And verify popup mesaage "Login Successfully".</span>
       <div>
-        <textarea disabled class="code-block">org.junit.ComparisonFailure: expected:<[Login Successfully]> but was:<[]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at com.orangehrm.utilities.CommonObjects.verifyTextByContainText(CommonObjects.java:209)
-	at com.orangehrm.stepDefination.LoginStepDefination.verify_popup_mesaage(LoginStepDefination.java:68)
-	at ?.verify popup mesaage "Login Successfully".(file:///D:/AutomationWorkspace/AutomationProjects/DemoOrangeHRM/src/test/resources/Features/Login.feature:11)
-</textarea>
-      
       </div>
               </div>
-              <div class="step skip-bg" title="com.orangehrm.stepDefination.ForgotPassword.user_clicked_on_button(java.lang.String)">
+              <div class="step pass-bg" title="com.orangehrm.stepDefination.ForgotPassword.user_clicked_on_button(java.lang.String)">
                 <span>And user clicked on button "Sign Out".</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
-              <div class="step skip-bg" title="com.orangehrm.stepDefination.LoginStepDefination.verify_popup_mesaage(java.lang.String)">
+              <div class="step pass-bg" title="com.orangehrm.stepDefination.LoginStepDefination.verify_popup_mesaage(java.lang.String)">
                 <span>And verify popup mesaage "Logout Successfully".</span>
-      <div>Step skipped
-      </div>
-              </div>
-              <div class="step pass-bg" title="AFTER">
-                <span>com.orangehrm.hooks.hooks.tearDown(io.cucumber.java.Scenario)</span>
-      <div>TC_001_Verify_login_function_with_valid_credentials.
-          <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='../embedded1.png' src="../embedded1.png">
-    
-    </div></div>
-</div>
       <div>
       </div>
               </div>
@@ -387,10 +365,13 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="12"><span class="badge log pass-bg mr-2">Pass</span>TC_002_Verify_login_Function_with_Invalid_Credentials.</div>
+        <div class="node" id="12"><span class="badge log fail-bg mr-2">Fail</span>TC_002_Verify_login_Function_with_Invalid_Credentials.</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
       </div>
     </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
               <div class="step pass-bg" title="com.orangehrm.stepDefination.LoginStepDefination.user_launched_browser_and_entered_url()">
                 <span>Given user launched browser and entered url.</span>
@@ -412,8 +393,27 @@ eventsCount: 5,
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="com.orangehrm.stepDefination.LoginStepDefination.verify_popup_mesaage(java.lang.String)">
+              <div class="step fail-bg" title="com.orangehrm.stepDefination.LoginStepDefination.verify_popup_mesaage(java.lang.String)">
                 <span>And verify popup mesaage "Incorrect email or password.".</span>
+      <div>
+        <textarea disabled class="code-block">org.junit.ComparisonFailure: expected:<[Incorrect email or password.]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.orangehrm.utilities.CommonObjects.verifyTextByContainText(CommonObjects.java:209)
+	at com.orangehrm.stepDefination.LoginStepDefination.verify_popup_mesaage(LoginStepDefination.java:68)
+	at ✽.verify popup mesaage "Incorrect email or password.".(file:///D:/AutomationWorkspace/AutomationProjects/DemoOrangeHRM/./src/test/resources/Features/Login.feature:20)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.orangehrm.hooks.hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>TC_002_Verify_login_Function_with_Invalid_Credentials.
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../embedded1.png' src="../embedded1.png">
+    
+    </div></div>
+</div>
       <div>
       </div>
               </div>
@@ -530,7 +530,7 @@ eventsCount: 5,
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>1</span>
+<span class='badge log pass-bg'>1</span>
 </span>
 <p class="name">@Valid</p>
 <p class="duration text-sm">1 tests</p>
@@ -538,7 +538,7 @@ eventsCount: 5,
 <div class="test-contents d-none">
 <div class="info">
 <h4>@Valid</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -549,9 +549,9 @@ eventsCount: 5,
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>22:33:26 pm</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:23:52 pm</td>
 <td>
 <a href="#" class="linked" test-id='1' id='2'>TC_001_Verify_login_function_with_valid_credentials.</a>
 <div class="">
@@ -566,15 +566,17 @@ eventsCount: 5,
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>1</span>
+<span class='badge log pass-bg'>3</span>
+<span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">@InValid</p>
-<p class="duration text-sm">1 tests</p>
+<p class="name">@ALL</p>
+<p class="duration text-sm">4 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@InValid</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
+<h4>@ALL</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -587,7 +589,73 @@ eventsCount: 5,
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>22:33:46 pm</td>
+<td>21:23:52 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>TC_001_Verify_login_function_with_valid_credentials.</a>
+<div class="">
+<span class="badge badge-default">Login Module..TC_001_Verify_login_function_with_valid_credentials.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:24:14 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='12'>TC_002_Verify_login_Function_with_Invalid_Credentials.</a>
+<div class="">
+<span class="badge badge-default">Login Module..TC_002_Verify_login_Function_with_Invalid_Credentials.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:24:33 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='21'>: TC_003_Verrify_forgot_password.</a>
+<div class="">
+<span class="badge badge-default">Login Module..: TC_003_Verrify_forgot_password.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:24:53 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='30'>: TC_003_Verrify_forgot_password.</a>
+<div class="">
+<span class="badge badge-default">Login Module..: TC_003_Verrify_forgot_password.</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@InValid</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@InValid</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:24:14 pm</td>
 <td>
 <a href="#" class="linked" test-id='1' id='12'>TC_002_Verify_login_Function_with_Invalid_Credentials.</a>
 <div class="">
@@ -623,7 +691,7 @@ eventsCount: 5,
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>22:34:03 pm</td>
+<td>21:24:33 pm</td>
 <td>
 <a href="#" class="linked" test-id='1' id='21'>: TC_003_Verrify_forgot_password.</a>
 <div class="">
@@ -633,75 +701,7 @@ eventsCount: 5,
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>22:34:23 pm</td>
-<td>
-<a href="#" class="linked" test-id='1' id='30'>: TC_003_Verrify_forgot_password.</a>
-<div class="">
-<span class="badge badge-default">Login Module..: TC_003_Verrify_forgot_password.</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>3</span>
-<span class='badge log badge-danger'>1</span>
-</span>
-<p class="name">@ALL</p>
-<p class="duration text-sm">4 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@ALL</h4>
-<span status="pass" class='badge log pass-bg'>3 passed</span>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>22:33:26 pm</td>
-<td>
-<a href="#" class="linked" test-id='1' id='2'>TC_001_Verify_login_function_with_valid_credentials.</a>
-<div class="">
-<span class="badge badge-default">Login Module..TC_001_Verify_login_function_with_valid_credentials.</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>22:33:46 pm</td>
-<td>
-<a href="#" class="linked" test-id='1' id='12'>TC_002_Verify_login_Function_with_Invalid_Credentials.</a>
-<div class="">
-<span class="badge badge-default">Login Module..TC_002_Verify_login_Function_with_Invalid_Credentials.</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>22:34:03 pm</td>
-<td>
-<a href="#" class="linked" test-id='1' id='21'>: TC_003_Verrify_forgot_password.</a>
-<div class="">
-<span class="badge badge-default">Login Module..: TC_003_Verrify_forgot_password.</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>22:34:23 pm</td>
+<td>21:24:53 pm</td>
 <td>
 <a href="#" class="linked" test-id='1' id='30'>: TC_003_Verrify_forgot_password.</a>
 <div class="">
@@ -753,11 +753,11 @@ eventsCount: 5,
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>22:33:42 pm</td>
+<td>21:24:28 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='8'>And verify popup mesaage "Login Successfully".</a>
+<a href="#" class="linked" test-id='1' id='18'>And verify popup mesaage "Incorrect email or password.".</a>
 <div class="">
-<span class="badge badge-default">Login Module..TC_001_Verify_login_function_with_valid_credentials..And verify popup mesaage "Login Successfully".</span>
+<span class="badge badge-default">Login Module..TC_002_Verify_login_Function_with_Invalid_Credentials..And verify popup mesaage "Incorrect email or password.".</span>
 </div>
 </td>
 </tr>

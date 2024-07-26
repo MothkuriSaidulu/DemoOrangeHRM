@@ -1,59 +1,14 @@
-[INFO ] 2024-07-24 17:04:32,021 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[INFO ] 2024-07-24 17:04:32,023 DriverFactory.initiate_browser() -  >>>>>> Browser value is : Chrome
-[INFO ] 2024-07-24 17:04:33,803 DriverFactory.initiate_browser() - Chromebrowser opened
-[INFO ] 2024-07-24 17:04:33,876 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[INFO ] 2024-07-24 17:04:34,456 DriverFactory.initiate_browser() - Application URL is : https://rahulshettyacademy.com/client
-[INFO ] 2024-07-24 17:04:34,489 hooks.launchBrowser() - PageLoad Time is : 2471 Milli Seconds
-[INFO ] 2024-07-24 17:04:34,512 LoginStepDefination.user_launched_browser_and_entered_url() -  >>>>>> User launched browser successfully. 
-[INFO ] 2024-07-24 17:04:34,515 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[WARN ] 2024-07-24 17:04:35,018 LoginStepDefination.user_entered_from_test_case() - Cannot locate an element using xpath=//*[@id='userEmail']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-E2QB3MJH', ip: '10.31.21.85', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: driver.version: RemoteWebDriver
-[INFO ] 2024-07-24 17:04:35,054 hooks.tearDown() - no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=126.0.6478.183)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-E2QB3MJH', ip: '10.31.21.85', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\SAIDAC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59841}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7a2f245c82943e5a9583a6948c7080b6
-[INFO ] 2024-07-24 17:04:35,076 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[INFO ] 2024-07-24 17:04:35,077 DriverFactory.initiate_browser() -  >>>>>> Browser value is : Chrome
-[INFO ] 2024-07-24 17:04:35,774 DriverFactory.initiate_browser() - Chromebrowser opened
-[INFO ] 2024-07-24 17:04:35,814 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[INFO ] 2024-07-24 17:04:36,749 DriverFactory.initiate_browser() - Application URL is : https://rahulshettyacademy.com/client
-[INFO ] 2024-07-24 17:04:36,783 hooks.tearDown() - no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=126.0.6478.183)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-E2QB3MJH', ip: '10.31.21.85', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\SAIDAC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59859}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 10b1c0ebb9b0f38fee79dbbc90a2a62d
-[INFO ] 2024-07-24 17:04:36,793 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[INFO ] 2024-07-24 17:04:36,794 DriverFactory.initiate_browser() -  >>>>>> Browser value is : Chrome
-[INFO ] 2024-07-24 17:04:37,484 DriverFactory.initiate_browser() - Chromebrowser opened
-[INFO ] 2024-07-24 17:04:37,524 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[INFO ] 2024-07-24 17:04:38,174 DriverFactory.initiate_browser() - Application URL is : https://rahulshettyacademy.com/client
-[INFO ] 2024-07-24 17:04:38,367 hooks.launchBrowser() - PageLoad Time is : 1573 Milli Seconds
-[INFO ] 2024-07-24 17:04:38,368 LoginStepDefination.user_launched_browser_and_entered_url() -  >>>>>> User launched browser successfully. 
-[INFO ] 2024-07-24 17:04:38,370 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[WARN ] 2024-07-24 17:04:38,421 LoginStepDefination.user_entered_from_test_case() - no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=126.0.6478.183)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-E2QB3MJH', ip: '10.31.21.85', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\SAIDAC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 37d593a139619aa2c85fb4020b08cc40
-*** Element info: {Using=xpath, value=//*[@id='userEmail']}
-[INFO ] 2024-07-24 17:04:38,428 hooks.tearDown() - no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=126.0.6478.183)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-E2QB3MJH', ip: '10.31.21.85', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\SAIDAC~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59877}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 37d593a139619aa2c85fb4020b08cc40
+[INFO ] 2024-07-24 22:41:03,170 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
+[INFO ] 2024-07-24 22:41:03,172 DriverFactory.initiate_browser() -  >>>>>> Browser value is : Chrome
+[INFO ] 2024-07-24 22:41:04,504 DriverFactory.initiate_browser() - Chromebrowser opened
+[INFO ] 2024-07-24 22:41:04,553 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
+[INFO ] 2024-07-24 22:41:07,398 DriverFactory.initiate_browser() - Application URL is : https://rahulshettyacademy.com/client
+[INFO ] 2024-07-24 22:41:07,487 hooks.launchBrowser() - PageLoad Time is : 4320 Milli Seconds
+[INFO ] 2024-07-24 22:41:07,506 LoginStepDefination.user_launched_browser_and_entered_url() -  >>>>>> User launched browser successfully. 
+[INFO ] 2024-07-24 22:41:07,510 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
+[INFO ] 2024-07-24 22:41:08,310 CommonObjects.enterTextByID() - Entered username is :chary1@yopmail.com
+[INFO ] 2024-07-24 22:41:11,313 LoginStepDefination.user_entered_from_test_case() -  >>>>>> User entered :  chary1@yopmail.com
+[INFO ] 2024-07-24 22:41:11,318 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
+[INFO ] 2024-07-24 22:41:11,685 CommonObjects.enterTextByID() - Entered username is :Chary@123
+[INFO ] 2024-07-24 22:41:14,693 LoginStepDefination.user_entered_from_test_case() -  >>>>>> User entered :  Chary@123
+[INFO ] 2024-07-24 22:41:17,805 LoginStepDefination.user_clicked_on() -  >>>>>> User clicked on :  login
