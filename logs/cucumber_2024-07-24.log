@@ -1,68 +1,14 @@
-[INFO ] 2024-07-24 22:33:27,231 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[INFO ] 2024-07-24 22:33:27,234 DriverFactory.initiate_browser() -  >>>>>> Browser value is : Chrome
-[INFO ] 2024-07-24 22:33:28,651 DriverFactory.initiate_browser() - Chromebrowser opened
-[INFO ] 2024-07-24 22:33:28,710 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[INFO ] 2024-07-24 22:33:31,894 DriverFactory.initiate_browser() - Application URL is : https://rahulshettyacademy.com/client
-[INFO ] 2024-07-24 22:33:31,920 hooks.launchBrowser() - PageLoad Time is : 4692 Milli Seconds
-[INFO ] 2024-07-24 22:33:31,939 LoginStepDefination.user_launched_browser_and_entered_url() -  >>>>>> User launched browser successfully. 
-[INFO ] 2024-07-24 22:33:31,942 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[INFO ] 2024-07-24 22:33:32,619 CommonObjects.enterTextByID() - Entered username is :chary1@yopmail.com
-[INFO ] 2024-07-24 22:33:35,624 LoginStepDefination.user_entered_from_test_case() -  >>>>>> User entered :  chary1@yopmail.com
-[INFO ] 2024-07-24 22:33:35,629 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[INFO ] 2024-07-24 22:33:35,961 CommonObjects.enterTextByID() - Entered username is :Chary@123
-[INFO ] 2024-07-24 22:33:38,969 LoginStepDefination.user_entered_from_test_case() -  >>>>>> User entered :  Chary@123
-[INFO ] 2024-07-24 22:33:42,120 LoginStepDefination.user_clicked_on() -  >>>>>> User clicked on :  login
-[INFO ] 2024-07-24 22:33:46,306 DriverFactory.close_app() -  Browser Closed 
-[INFO ] 2024-07-24 22:33:46,336 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[INFO ] 2024-07-24 22:33:46,336 DriverFactory.initiate_browser() -  >>>>>> Browser value is : Chrome
-[INFO ] 2024-07-24 22:33:47,272 DriverFactory.initiate_browser() - Chromebrowser opened
-[INFO ] 2024-07-24 22:33:47,342 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[INFO ] 2024-07-24 22:33:49,603 DriverFactory.initiate_browser() - Application URL is : https://rahulshettyacademy.com/client
-[INFO ] 2024-07-24 22:33:49,748 hooks.launchBrowser() - PageLoad Time is : 3411 Milli Seconds
-[INFO ] 2024-07-24 22:33:49,748 LoginStepDefination.user_launched_browser_and_entered_url() -  >>>>>> User launched browser successfully. 
-[INFO ] 2024-07-24 22:33:49,750 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[INFO ] 2024-07-24 22:33:50,319 CommonObjects.enterTextByID() - Entered username is :Tara@yopmail.com
-[INFO ] 2024-07-24 22:33:53,324 LoginStepDefination.user_entered_from_test_case() -  >>>>>> User entered :  Tara@yopmail.com
-[INFO ] 2024-07-24 22:33:53,326 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[INFO ] 2024-07-24 22:33:53,633 CommonObjects.enterTextByID() - Entered username is :Tara@12366
-[INFO ] 2024-07-24 22:33:56,639 LoginStepDefination.user_entered_from_test_case() -  >>>>>> User entered :  Tara@12366
-[INFO ] 2024-07-24 22:33:59,779 LoginStepDefination.user_clicked_on() -  >>>>>> User clicked on :  login
-[INFO ] 2024-07-24 22:34:03,711 DriverFactory.close_app() -  Browser Closed 
-[INFO ] 2024-07-24 22:34:03,722 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[INFO ] 2024-07-24 22:34:03,722 DriverFactory.initiate_browser() -  >>>>>> Browser value is : Chrome
-[INFO ] 2024-07-24 22:34:04,618 DriverFactory.initiate_browser() - Chromebrowser opened
-[INFO ] 2024-07-24 22:34:04,675 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[INFO ] 2024-07-24 22:34:06,952 DriverFactory.initiate_browser() - Application URL is : https://rahulshettyacademy.com/client
-[INFO ] 2024-07-24 22:34:06,981 hooks.launchBrowser() - PageLoad Time is : 3258 Milli Seconds
-[INFO ] 2024-07-24 22:34:06,983 LoginStepDefination.user_launched_browser_and_entered_url() -  >>>>>> User launched browser successfully. 
-[INFO ] 2024-07-24 22:34:07,141 ForgotPassword.user_clicked_on_forgot_as() -  >>>>>> User Succesfully Clicked on  : forgot-password-link
-[INFO ] 2024-07-24 22:34:07,142 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[INFO ] 2024-07-24 22:34:07,505 CommonObjects.enterTextByFormcontrolName() - Entered username is :paparao@yopmail.com
-[INFO ] 2024-07-24 22:34:10,518 ForgotPassword.user_entered_from_sheet_for_test_case() -  >>>>>> User Succesfully Entered : userEmail
-[INFO ] 2024-07-24 22:34:10,527 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[INFO ] 2024-07-24 22:34:10,869 CommonObjects.enterTextByFormcontrolName() - Entered username is :Chary@123
-[INFO ] 2024-07-24 22:34:13,869 ForgotPassword.user_entered_from_sheet_for_test_case() -  >>>>>> User Succesfully Entered : userPassword
-[INFO ] 2024-07-24 22:34:13,875 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[INFO ] 2024-07-24 22:34:14,219 CommonObjects.enterTextByFormcontrolName() - Entered username is :Chary@123
-[INFO ] 2024-07-24 22:34:17,235 ForgotPassword.user_entered_from_sheet_for_test_case() -  >>>>>> User Succesfully Entered : confirmPassword
-[INFO ] 2024-07-24 22:34:20,344 ForgotPassword.user_clicked_on_button() -  >>>>>> User Succesfully clicked on :  Save New Password
-[INFO ] 2024-07-24 22:34:23,584 DriverFactory.close_app() -  Browser Closed 
-[INFO ] 2024-07-24 22:34:23,592 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[INFO ] 2024-07-24 22:34:23,592 DriverFactory.initiate_browser() -  >>>>>> Browser value is : Chrome
-[INFO ] 2024-07-24 22:34:24,323 DriverFactory.initiate_browser() - Chromebrowser opened
-[INFO ] 2024-07-24 22:34:24,376 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[INFO ] 2024-07-24 22:34:24,674 DriverFactory.initiate_browser() - Application URL is : https://rahulshettyacademy.com/client
-[INFO ] 2024-07-24 22:34:27,527 hooks.launchBrowser() - PageLoad Time is : 3934 Milli Seconds
-[INFO ] 2024-07-24 22:34:27,529 LoginStepDefination.user_launched_browser_and_entered_url() -  >>>>>> User launched browser successfully. 
-[INFO ] 2024-07-24 22:34:27,672 ForgotPassword.user_clicked_on_forgot_as() -  >>>>>> User Succesfully Clicked on  : forgot-password-link
-[INFO ] 2024-07-24 22:34:27,676 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[INFO ] 2024-07-24 22:34:27,985 CommonObjects.enterTextByFormcontrolName() - Entered username is :vanam@yopmail.com
-[INFO ] 2024-07-24 22:34:30,991 ForgotPassword.user_entered_from_sheet_for_test_case() -  >>>>>> User Succesfully Entered : userEmail
-[INFO ] 2024-07-24 22:34:30,994 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[INFO ] 2024-07-24 22:34:31,355 CommonObjects.enterTextByFormcontrolName() - Entered username is :Chary@123
-[INFO ] 2024-07-24 22:34:34,365 ForgotPassword.user_entered_from_sheet_for_test_case() -  >>>>>> User Succesfully Entered : userPassword
-[INFO ] 2024-07-24 22:34:34,365 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
-[INFO ] 2024-07-24 22:34:34,707 CommonObjects.enterTextByFormcontrolName() - Entered username is :Chary@123
-[INFO ] 2024-07-24 22:34:37,716 ForgotPassword.user_entered_from_sheet_for_test_case() -  >>>>>> User Succesfully Entered : confirmPassword
-[INFO ] 2024-07-24 22:34:40,839 ForgotPassword.user_clicked_on_button() -  >>>>>> User Succesfully clicked on :  Save New Password
-[INFO ] 2024-07-24 22:34:44,140 DriverFactory.close_app() -  Browser Closed 
+[INFO ] 2024-07-24 22:41:03,170 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
+[INFO ] 2024-07-24 22:41:03,172 DriverFactory.initiate_browser() -  >>>>>> Browser value is : Chrome
+[INFO ] 2024-07-24 22:41:04,504 DriverFactory.initiate_browser() - Chromebrowser opened
+[INFO ] 2024-07-24 22:41:04,553 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
+[INFO ] 2024-07-24 22:41:07,398 DriverFactory.initiate_browser() - Application URL is : https://rahulshettyacademy.com/client
+[INFO ] 2024-07-24 22:41:07,487 hooks.launchBrowser() - PageLoad Time is : 4320 Milli Seconds
+[INFO ] 2024-07-24 22:41:07,506 LoginStepDefination.user_launched_browser_and_entered_url() -  >>>>>> User launched browser successfully. 
+[INFO ] 2024-07-24 22:41:07,510 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
+[INFO ] 2024-07-24 22:41:08,310 CommonObjects.enterTextByID() - Entered username is :chary1@yopmail.com
+[INFO ] 2024-07-24 22:41:11,313 LoginStepDefination.user_entered_from_test_case() -  >>>>>> User entered :  chary1@yopmail.com
+[INFO ] 2024-07-24 22:41:11,318 ConfigReader.getProperty() -  >>>>>> User Successfully loaded Config file. 
+[INFO ] 2024-07-24 22:41:11,685 CommonObjects.enterTextByID() - Entered username is :Chary@123
+[INFO ] 2024-07-24 22:41:14,693 LoginStepDefination.user_entered_from_test_case() -  >>>>>> User entered :  Chary@123
+[INFO ] 2024-07-24 22:41:17,805 LoginStepDefination.user_clicked_on() -  >>>>>> User clicked on :  login
